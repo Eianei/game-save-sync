@@ -29,14 +29,9 @@ Game Saves/
 │   └── SAVEDATA
 │       └── ULES0000SAVE000
 ├── Steam
-│   ├── A Plague Tale Innocence
-│   │   └── 752590
-│   ├── Monster Hunter Stories
-│   │   └── 2356560
-│   ├── Monster Hunter World
-│   │   └── 582010
-│   └── Yakuza Like A Dragon
-│       └── 1235140
+│   ├── gametitle
+│   │   └── gameid
+│   │       └── saved data
 ├── Switch
 │   └── bis
 │       ├── system
