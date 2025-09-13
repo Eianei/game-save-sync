@@ -1,6 +1,6 @@
 ## Directory Structure: 
 
-This is the directory structure I use for the Syncthing set-up, it was made with the ```tree``` command. Each platform will be explained on each specific "platform.md":
+This is the directory structure I use for the Syncthing set-up, it was made with the ```tree``` command. Each platform will be explained on each specific "platform.md". Some names have been changed for placeholders, having the same format but ofuscating its real game save data name.
 ```
 Game Saves/
 ├── 3DS
