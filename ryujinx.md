@@ -1,6 +1,6 @@
 ## Ryujinx Configuration
 
-Ryujinx is like other Nintendo emulators as it arbitrarily names game saves folders by playing order, just like Citra or Dolphin, but it is easier to back up its configuration and saves as everything is contained in the ```bis``` folder. Within ```bis``` there is a ```system``` folder with all system files and configuration (just like ```nand``` of Citra or Dolphin); and a ```user``` folder, that contains all saved game data.
+Ryujinx is like other Nintendo emulators as it arbitrarily names game saves folders by playing order, just like Citra or Dolphin, but it is easier to back up its configuration and saves as everything is contained in the ```bis``` folder. Within ```bis``` there is a ```system``` folder with all system files and configuration (just like ```nand``` of Citra or Dolphin); and a ```user``` folder, that contains all saved game data (like the ```smdc``` of Citra).
 
 So, to back Ryujinx up, just copy the ```bis``` folder located in ```~/.config/Ryujinx/``` and drop it in the Syncthing folder. 
 
