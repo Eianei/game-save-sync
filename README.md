@@ -47,3 +47,11 @@ The emulators and subsequent folders (named by the platform) used in my set-up a
 The way the set-up was made was by simply creating a set of directories in the Syncthing main folder (Game Saves), and selecting them in emulator's settings as the default data directory. Quick and simple. 
    
 However, some emulators have a "complicated" save procedure or make it harder to change emulator's path settings. Therefore, more complicated set up for specific emulators or symlinks come into play. Each emulator will have a .md file in the repository explaining its peculiarities and why it was made the way it was made. 
+
+## Nintendo Emulator Folders:
+
+Some Nintendo emulators work by assigning arbitrarily each game saved data folder a name in the opening order. Therefore, backing up the system folder of each emulator is crucial, otherwise, you would need to open games in the exact same order to make each emulator on each device name each folder the same way, and even made this way I don't exactly know if it would work properly. Further explained and exemplified:
+
+If I have a Steam Deck and my main PC with Citra installed, platforms where I will play my back up copies of Monster Hunter 4 Ultimate and Pokémon X, opening the former will create a folder named "00000001", a name assigned internally by the emulator for MH4U; and when I would open the latter, it would create a folder named "00000002" assigned for Pokémon X. Reversing the order would have made Pokémon X to be "00000001" and MH4U "00000002". 
+
+The system information that has mapped which folder is which game is contained in the ```nand``` folder, so just by syncing this folder across deviced will make the emulators to share the same folder mapping and thus, not conflicting save folders names. This example was made with Citra naming and 3DS games, but the same would be applied with slight changes on other Nintendo emulators like Ryujinx. 
