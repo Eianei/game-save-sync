@@ -24,9 +24,14 @@ Summing it up:
 
 I thought of this possibility when I started using Syncthing to synchronize my Obisidian vault, and after tinkering a bit with emulators settings I ended up with this set-up, which has proven reliable and scalable. 
 
+## Imporant Considerations
+
+- Throughout the repository, both Syncthing folder or Game Saves folder (```~/Game\ Saves/```) will be mentioned indistictly. Both are the same folder and it's the folder created in Syncthing to share across devices, then other directories can be created within to each person's liking.
+More detailed diagram in [structure](structure.md). 
+
 ## Peers:
 
-In this set-up, the peers used were my main gaming PC, my MacBook Air M2 and a Optiplex 5070 that sits in my living room with the living room TV as its display. All three have the same emulators installed and are platforms to play in. In a near future a Steam Deck will probably be the next device that will share this same backup system. Anyway, that is my set-up, each one can make it however they want and it is a scalable solution, so the more devices, the more peers to add to the P2P network. 
+In this set-up, the peers used were my main gaming PC, my MacBook Air M2 and a Optiplex 5070 that sits in my living room with the living room TV as its display. All three have the same emulators installed and are platforms to play in. In a near future a Steam Deck will probably be the next device that will share this same backup system. Anyway, that is my set-up, each one can make it however they want as it has proven to be a scalable solution, so the more devices, the more peers to add to the P2P network. 
 
 ## Emulators:
 
