@@ -27,7 +27,8 @@ I thought of this possibility when I started using Syncthing to synchronize my O
 ## Imporant Considerations
 
 - Throughout the repository, both Syncthing folder or Game Saves folder (```~/Game\ Saves/```) will be mentioned indistictly. Both are the same folder and it's the folder created in Syncthing to share across devices, then other directories can be created within to each person's liking.
-More detailed diagram in [structure](structure.md). 
+More detailed diagram in [structure](structure.md).
+- There may be different and more optimal ways to reach the same conclusion, I just present what is my configuration and how to achieve synchronization between clients used to play on emulators. 
 
 ## Peers:
 
