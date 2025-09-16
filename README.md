@@ -5,15 +5,17 @@ I do not condone or endorse piracy. All games I use with these emulators have be
 
 ## Introduction:
 
-This is my personal set-up for the [Syncthing](https://github.com/syncthing/syncthing) directory for game saved data synchronization. It is detailed specifying each emulator settings and explained why it is made that way and what was done to fix issues in case there was when setting up the whole configuration. 
+This is my personal setup for the [Syncthing](https://github.com/syncthing/syncthing) directory for game saved data synchronization. It is detailed specifying each emulator settings and explained why it is made that way and what was done to fix issues in case there was when setting up the whole configuration. 
 
-Each emulator's features and specific set-up will be explained on "emulator-name".md; a general structure example in [structure.md](structure.md); and future project modifications, like other emulators additions or set-up modifications will be added on [future-changes.md](future-changes.md). I am also open to requests, and I will try to add requested emulators.
+Each emulator's features and specific setup will be explained on "emulator-name".md; a general structure example in [structure.md](structure.md); and future project modifications, like other emulators additions or setup modifications will be added on [future-changes.md](future-changes.md). I am also open to requests, and I will try to add requested emulators.
 
 ## Why Syncthing?
 
-Syncthing works by creating and sharing a directory across devices (in my case "Game Saves"), and checking if any change has been made to that directory. If a change was made (in this use case, a save overwrite), it synchronizes the modification on every device that is on the P2P net, so it ensures there isn't a single point of failure. Scanning constantly also makes the saved data to be up to date on any playable device and securing data integrity, and allowing the user to resume the game in the same spot that was left on other device in any moment. Additionally, it has a system of public relays where you connect via UPnP (so no port forwarding is needed) if LAN is not available. Therefore, local connection is not necessarily needed to accomplish the synchronization. Thus, Syncthing makes a reliable, quick and easy tool to backup data between devices, making it perfect for the set-up presented in this repository. 
+Syncthing works by creating and sharing a directory across devices (in my case "Game Saves"), and checking if any change has been made to that directory. If a change was made (in this use case, a save overwrite), it synchronizes the modification on every device that is on the P2P net, so it ensures there isn't a single point of failure. 
 
-Then Syncthing would be used to have a set of directories cointaining the games saved data and syncing it across devices, ensuring integrity and availability of the saves in any client. 
+Scanning constantly (configured to scan each 10 seconds) also makes the saved data to be up to date on any playable device and securing data integrity, and allowing the user to resume the game in the same spot that was left on other device in any moment. Additionally, it has a system of public relays where you connect via UPnP (so no port forwarding is needed) if LAN is not available. Therefore, local connection is not necessarily needed to accomplish the synchronization. Thus, Syncthing makes a reliable, quick and easy tool to backup data between devices, making it perfect for the setup presented in this repository. 
+
+Then other folders would be created on top of the Syncthing folder, used to have a set of directories cointaining the games' saved data and syncing it across devices, ensuring as mentioned integrity and availability of the saves in any client. 
 
 Summing it up:
 
@@ -22,7 +24,7 @@ Summing it up:
 - Avoids a single point of failure. 
 - Uses public relay servers if direct LAN is not available.
 
-I thought of this possibility when I started using Syncthing to synchronize my Obisidian vault, and after tinkering a bit with emulators settings I ended up with this set-up, which has proven reliable and scalable. 
+I thought of this possibility when I started using Syncthing to synchronize my Obisidian vault, and after tinkering a bit with emulators settings I ended up with this setup, which has proven reliable and scalable. 
 
 ## Imporant Considerations
 
@@ -32,11 +34,11 @@ More detailed diagram in [structure](structure.md).
 
 ## Peers:
 
-In this set-up, the peers used were my main gaming PC, my MacBook Air M2 and a Optiplex 5070 that sits in my living room with the living room TV as its display. All three have the same emulators installed and are platforms to play in. In a near future a Steam Deck will probably be the next device that will share this same backup system. Anyway, that is my set-up, each one can make it however they want as it has proven to be a scalable solution, so the more devices, the more peers to add to the P2P network. 
+In this setup, the peers used were my main gaming PC, my MacBook Air M2 and a Optiplex 5070 that sits in my living room with the living room TV as its display. All three have the same emulators installed and are platforms to play in. In a near future a Steam Deck will probably be the next device that will share this same backup system. Anyway, that is my setup, each one can make it however they want as it has proven to be a scalable solution, so the more devices, the more peers to add to the P2P network. 
 
 ## Emulators:
 
-The emulators and subsequent folders (named by the platform) used in my set-up are:
+The emulators and subsequent folders (named by the platform) used in my setup are:
 
 - [PPSSPP](https://github.com/hrydgard/ppsspp): for PSP.
 - [PCSX2](https://github.com/PCSX2/pcsx2): for PS2.
@@ -52,7 +54,7 @@ The emulators and subsequent folders (named by the platform) used in my set-up a
 
 ## Procedure:
 
-The way the set-up was made was by simply creating a set of directories in the Syncthing main folder (Game Saves), and selecting them in emulator's settings as the default data directory. Quick and simple. 
+The way the setup was made was by simply creating a set of directories in the Syncthing main folder (Game Saves), and selecting them in emulator's settings as the default data directory. Quick and simple. 
    
 However, some emulators have a "complicated" save procedure or make it harder to change emulator's path settings. Therefore, more complicated set up for specific emulators or symlinks come into play. Each emulator will have a .md file in the repository explaining its peculiarities and why it was made the way it was made. 
 
