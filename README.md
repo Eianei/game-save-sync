@@ -11,7 +11,7 @@ Each emulator's features and specific set-up will be explained on "emulator-name
 
 ## Why Syncthing?
 
-Syncthing works by creating and sharing a directory across devices, and checking if any change has been made to that directory. If a change was made, it synchronizes the modification on every device that is on the P2P net so it ensures there isn't a single point of failure. Scanning constantly also makes the saved data to be up to date on any playable device and securing data integrity, and allowing the user to resume the game in the same spot that was left on other device in any moment. Additionally, it has a system of public relays where you connect via UPnP (so no port forwarding is needed) if LAN is not available. Therefore, local connection is not necessarily needed to accomplish the synchronization. Thus, Syncthing makes a reliable, quick and easy tool to backup data between devices, making it perfect for the set-up presented in this repository. 
+Syncthing works by creating and sharing a directory across devices (in my case "Game Saves"), and checking if any change has been made to that directory. If a change was made (in this use case, a save overwrite), it synchronizes the modification on every device that is on the P2P net, so it ensures there isn't a single point of failure. Scanning constantly also makes the saved data to be up to date on any playable device and securing data integrity, and allowing the user to resume the game in the same spot that was left on other device in any moment. Additionally, it has a system of public relays where you connect via UPnP (so no port forwarding is needed) if LAN is not available. Therefore, local connection is not necessarily needed to accomplish the synchronization. Thus, Syncthing makes a reliable, quick and easy tool to backup data between devices, making it perfect for the set-up presented in this repository. 
 
 Then Syncthing would be used to have a set of directories cointaining the games saved data and syncing it across devices, ensuring integrity and availability of the saves in any client. 
 
@@ -28,7 +28,7 @@ I thought of this possibility when I started using Syncthing to synchronize my O
 
 - Throughout the repository, both "Syncthing folder" or "Game Saves folder" (```~/Game\ Saves/```) will be mentioned indistictly. Both are the same folder and it's the folder created in Syncthing to share across devices, then other directories can be created within to each person's liking.
 More detailed diagram in [structure](structure.md).
-- There may be different and more optimal ways to reach the same conclusion, I just present what is my configuration and how to achieve synchronization between clients used to play on emulators. 
+- There may be different and more optimal ways to reach the same conclusion, I just present what is my configuration and how to achieve synchronization between clients used to play on emulators.
 
 ## Peers:
 
