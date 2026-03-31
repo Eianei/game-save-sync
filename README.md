@@ -40,9 +40,9 @@ In this setup, the peers used were my main gaming PC, Steam Deck, MacBook Air M2
 
 The emulators and subsequent folders (named by the platform) used in my setup are:
 
-- [PPSSPP](https://github.com/hrydgard/ppsspp): for PSP.
-- [PCSX2](https://github.com/PCSX2/pcsx2): for PS2.
-- [SNES9X](https://github.com/snes9xgit/snes9x): for SNES.
+- [PPSSPP](https://github.com/hrydgard/ppsspp): for PlayStation Portable.
+- [PCSX2](https://github.com/PCSX2/pcsx2): for PlayStation 2.
+- [SNES9X](https://github.com/snes9xgit/snes9x): for Super Nintendo Entertainment System.
 - [mGBA](https://github.com/mgba-emu/mgba): for Nintendo GameBoy Advance. 
 - [DeSmuME](https://github.com/TASEmulators/desmume): for Nintendo DS.
 - Citra*: for Nintendo 3DS.
