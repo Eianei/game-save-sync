@@ -51,7 +51,7 @@ The emulators and subsequent folders (named by the platform) used in my setup ar
 - [Ryujinx](https://git.ryujinx.app/ryubing/ryujinx/-/tree/master): for Nintendo Switch.
 - Steam: not an emulator, however I backed up the saved files of Steam games. Extracted from [Steam Cloud](https://store.steampowered.com/account/remotestorage), thus, not relying only on Steam as the sole saved data storage.
   
-*Citra was discontinued due to Nintendo's cease and desist and is currently being continued on [Azahar](https://github.com/azahar-emu/azahar), however, the functionality is different as the latter doesn't use the same game format. When I started this project, Citra was still in development and it was the emulator I used, and still use. Citra can also be found on the [Internet Archive](https://archive.org/details/citra-nightly-2104_20240304). 
+*Citra was discontinued due to Nintendo's cease and desist and is currently being continued on [Azahar](https://github.com/azahar-emu/azahar), however, the functionality is different as the latter doesn't use the same game format. When I started this project, Citra was still in development and it was the emulator I used, and keep using. Citra can still be found on the [Internet Archive](https://archive.org/details/citra-nightly-2104_20240304). 
 
 
 ## Procedure:
