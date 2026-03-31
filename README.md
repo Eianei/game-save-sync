@@ -42,6 +42,7 @@ The emulators and subsequent folders (named by the platform) used in my setup ar
 
 - [PPSSPP](https://github.com/hrydgard/ppsspp): for PSP.
 - [PCSX2](https://github.com/PCSX2/pcsx2): for PS2.
+- [SNES9X](https://github.com/snes9xgit/snes9x): for SNES.
 - [mGBA](https://github.com/mgba-emu/mgba): for Nintendo GameBoy Advance. 
 - [DeSmuME](https://github.com/TASEmulators/desmume): for Nintendo DS.
 - Citra*: for Nintendo 3DS.
