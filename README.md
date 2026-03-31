@@ -34,14 +34,15 @@ More detailed diagram in [structure](structure.md).
 
 ## Peers:
 
-In this setup, the peers used were my main gaming PC, my MacBook Air M2 and a Optiplex 5070 that sits in my living room with the living room TV as its display. All three have the same emulators installed and are platforms to play in. In a near future a Steam Deck will probably be the next device that will share this same backup system. Anyway, that is my setup, each one can make it however they want as it has proven to be a scalable solution, so the more devices, the more peers to add to the P2P network. 
+In this setup, the peers used were my main gaming PC, Steam Deck, MacBook Air M2, and a Optiplex 5070 that sits in my living room with the living room TV as its display. All four have the same emulators installed and are platforms to play in. Anyway, that is my setup, each one can make it however they want as it has proven to be a scalable solution, so the more devices, the more peers to add to the P2P network. 
 
 ## Emulators:
 
 The emulators and subsequent folders (named by the platform) used in my setup are:
 
 - [PPSSPP](https://github.com/hrydgard/ppsspp): for PSP.
-- [PCSX2](https://github.com/PCSX2/pcsx2): for PS2.
+- [PCSX2](https://github.com/PCSX2/pcsx2): for PS2.ç
+- [mGBA](https://github.com/mgba-emu/mgba): for Nintendo GameBoy Advance. 
 - [DeSmuME](https://github.com/TASEmulators/desmume): for Nintendo DS.
 - Citra*: for Nintendo 3DS.
 - [Dolphin](https://github.com/dolphin-emu/dolphin): for Nintendo GameCube and Wii.
@@ -65,3 +66,11 @@ Some Nintendo emulators work by assigning arbitrarily each game saved data folde
 If I have a Steam Deck and my main PC with Citra installed, platforms where I will play my back up copies of Monster Hunter 4 Ultimate and Pokémon X, opening the former will create a folder named "00000001", a name assigned internally by the emulator for MH4U; and when I would open the latter, it would create a folder named "00000002" assigned for Pokémon X. Reversing the order would have made Pokémon X to be "00000001" and MH4U "00000002". 
 
 The system information that has mapped which folder is which game is contained in the ```nand``` folder, so just by syncing this folder across deviced will make the emulators to share the same folder mapping and thus, not conflicting save folders names. This example was made with Citra naming and 3DS games, but the same would be applied with slight changes on other Nintendo emulators like Ryujinx. 
+
+## Steam Deck set up:
+
+While most people use EmuDeck or RetroDeck, given my set up with my NAS/Syncthing, I preferred just to stick to how I did things before with other devices. I simply downloaded the Syncthing, and all the emulators I had before (and some more), to have the exact same set up. 
+
+The reasoning of this was basically that I didn't want to check whether it'd work properly with my set up, as all I read on Reddit mentioned that both Retro/EmuDeck limited the customization of each emulators. To be honest I could've been less lazy and could have checked whether I could reproduce the set up, but I'm used to set up all the emulators and how each works, so it's not that much of a hassle. Unlike on PC, emulators on Steam Deck were downloaded as Flatpak images, as I saw it recommended online, instead of using ```pacman``` or ```yay```. 
+
+Also to have my ROMs on the Big Picture menu, I used, I guess like everyone does, [Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager). A memo/guide is explained in [steam-rom-manager.md](steam-rom-manager.md). 
