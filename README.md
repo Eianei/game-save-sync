@@ -73,6 +73,6 @@ While most people use EmuDeck or RetroDeck, given my set up with my NAS/Syncthin
 
 The reasoning of this was basically that I didn't want to check whether it'd work properly with my set up, as all I read on Reddit mentioned that both Retro/EmuDeck limited the customization of each emulators. To be honest I could've been less lazy and could have checked whether I could reproduce the set up, but I'm used to set up all the emulators and how each works, so it's not that much of a hassle. Unlike on PC, emulators on Steam Deck were downloaded as Flatpak images, as I saw it recommended online, instead of using ```pacman``` or ```yay```. 
 
-The only relevant thing to mention about Flatpak images is that instead of other default paths for emulators like ```~/.config``` they are usually inside ```~/.var```.
+Relevant things to mention about Flatpak images is that instead of other default paths for emulators like ```~/.config``` they are usually inside ```~/.var```. Also, if needed, [Flatseal](https://github.com/tchx84/Flatseal) can be used to give permissions they would normally have given that they are sandboxed images. I did it just in case they needed permission to ```/home/deck/*``` to check for Saves or ROMs (both a local folder and the NAS folder are inside home folder).  
 
 Also to have my ROMs on the Big Picture menu, I used, I guess like everyone does, [Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager). A memo/guide is explained in [steam-rom-manager.md](steam-rom-manager.md). 
