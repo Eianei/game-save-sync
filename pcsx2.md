@@ -1,4 +1,4 @@
-## PCSX2 Configuration:
+## PCSX2 Configuration
 
 PCSX2 is probably one or the most straightforward emulator to configure. It uses virtual memory cards, right like the physical ones we used to plug into the PS2, where saves are saved and loaded from. The only thing needed to set this up is to copy the memory cards (Mcd001.ps2 and Mcd002.ps2) into the Syncthing folder and point the PCSX2 settings into said folder. 
 
