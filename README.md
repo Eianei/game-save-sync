@@ -9,6 +9,12 @@ This is my personal setup for the [Syncthing](https://github.com/syncthing/synct
 
 Each emulator's features and specific setup will be explained on "emulator-name".md; a general structure example in [structure.md](structure.md); and the set up for Steam ROM Manager in [steam-rom-manager.md](steam-rom-manager.md). I am also open to requests, and I will try to add requested emulators.
 
+## Imporant Considerations
+
+- Throughout the repository, both "Syncthing folder" or "Game Saves folder" (```~/Game\ Saves/```) will be mentioned indistictly. Both are the same folder and it's the folder created in Syncthing to share across devices, then other directories can be created within to each person's liking.
+More detailed diagram in [structure](structure.md).
+- There may be different and more optimal ways to reach the same conclusion, I just present what is my configuration and how to achieve synchronization between clients used to play on emulators.
+
 ## Why Syncthing?
 
 Syncthing works by creating and sharing a directory across devices (in my case "Game Saves"), and checking if any change has been made to that directory. If a change was made (in this use case, a save overwrite), it synchronizes the modification on every device that is on the P2P net, so it ensures there isn't a single point of failure. 
@@ -25,12 +31,6 @@ Summing it up:
 - Uses public relay servers if direct LAN is not available.
 
 I thought of this possibility when I started using Syncthing to synchronize my Obisidian vault, and after tinkering a bit with emulators settings I ended up with this setup, which has proven reliable and scalable. 
-
-## Imporant Considerations
-
-- Throughout the repository, both "Syncthing folder" or "Game Saves folder" (```~/Game\ Saves/```) will be mentioned indistictly. Both are the same folder and it's the folder created in Syncthing to share across devices, then other directories can be created within to each person's liking.
-More detailed diagram in [structure](structure.md).
-- There may be different and more optimal ways to reach the same conclusion, I just present what is my configuration and how to achieve synchronization between clients used to play on emulators.
 
 ## Peers:
 
