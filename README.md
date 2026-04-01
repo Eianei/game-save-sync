@@ -7,7 +7,7 @@ I do not condone or endorse piracy. All games I use with these emulators have be
 
 This is my personal setup for the [Syncthing](https://github.com/syncthing/syncthing) directory for game saved data synchronization. It is detailed specifying each emulator settings and explained why it is made that way and what was done to fix issues in case there was when setting up the whole configuration. It serves as the documentation to repeat the setup when a new device is included in the P2P syncing net, as well as a guide for other users that want to have the same sync utility in their setup. 
 
-Each emulator's features and specific setup will be explained on "emulator-name".md; a general structure example in [structure.md](structure.md); and future project modifications, like other emulators additions or setup modifications will be added on [future-changes.md](future-changes.md). I am also open to requests, and I will try to add requested emulators.
+Each emulator's features and specific setup will be explained on "emulator-name".md; a general structure example in [structure.md](structure.md); and the set up for Steam ROM Manager in [steam-rom-manager.md](steam-rom-manager.md). I am also open to requests, and I will try to add requested emulators.
 
 ## Why Syncthing?
 
