@@ -44,7 +44,7 @@ The emulators and subsequent folders (named by the platform) used in my setup ar
 - [PCSX2](https://github.com/PCSX2/pcsx2): for PlayStation 2.
 - [SNES9X](https://github.com/snes9xgit/snes9x): for Super Nintendo Entertainment System.
 - [mGBA](https://github.com/mgba-emu/mgba): for Nintendo GameBoy Advance. 
-- [DeSmuME](https://github.com/TASEmulators/desmume): for Nintendo DS.
+- [MelonDS](https://github.com/melonDS-emu/melonDS): for Nintendo DS.
 - Citra*: for Nintendo 3DS.
 - [Dolphin](https://github.com/dolphin-emu/dolphin): for Nintendo GameCube and Wii.
 - [Cemu](https://github.com/cemu-project/Cemu): for Nintendo WiiU.
